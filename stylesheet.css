@@ -1,8 +1,27 @@
+:root {
+    /*https://www.color-hex.com/color-palette/29347*/
+    --pink: #ffe2ea;
+    --strong: #67ae9c;
+    --light: #d1fdd4;
+    --lightMiddle: #b3e8c8;
+    --strongMiddle:#9bc5b8;
+}
+
 body {
     text-align: center;
+    background-color: var(--pink);
+}
+
+h1 {
+    color: var(--strong);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     width: 200px;
+    text-align: center;
+}
+
+button {
     text-align: center;
 }
